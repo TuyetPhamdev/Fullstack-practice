@@ -10,6 +10,8 @@ let initWebRouters = (app) => {
     router.get('/', homeController.getHomePage);
     // localhost:8080/about
     router.get('/about', homeController.getAboutpage);
+    router.get('/crud', homeController.getCRUD);
+    router.post('/post-crud', homeController.postCRUD);
     // app sử dụng tất cả các file router mà chúng ta khai báo
     return app.use("/", router);
 
