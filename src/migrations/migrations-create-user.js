@@ -37,7 +37,7 @@ module.exports = {
       roleId: {
         type: Sequelize.STRING
       },
-      possitionId: {
+      positionId: {
         type: Sequelize.STRING
       },
       createdAt: {
